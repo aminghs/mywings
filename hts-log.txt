@@ -1,0 +1,34 @@
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 27 Oct 2020 17:44:00 at http://badlapurseva.com/56/mywings/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://badlapurseva.com/56/mywings/ -O1 "F:\New folder\Mywings" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+17:52:06	Error: 	"Not Found" (404) at link badlapurseva.com/56/mywings/wp-content/themes/mywings/css/owl.theme.css.css (from badlapurseva.com/56/mywings/)
+17:55:44	Error: 	"Not Found" (404) at link badlapurseva.com/56/mywings/wp-content/themes/mywings/img/slide-1.jpeg (from badlapurseva.com/56/mywings/wp-content/themes/mywings/css/style.css)
+17:55:44	Error: 	"Not Found" (404) at link badlapurseva.com/56/mywings/wp-content/themes/mywings/img/slide-2.jpeg (from badlapurseva.com/56/mywings/wp-content/themes/mywings/css/style.css)
+17:55:44	Error: 	"Not Found" (404) at link badlapurseva.com/56/mywings/wp-content/themes/mywings/img/slide-3.jpeg (from badlapurseva.com/56/mywings/wp-content/themes/mywings/css/style.css)
+17:55:44	Error: 	"Not Found" (404) at link badlapurseva.com/56/mywings/wp-content/themes/mywings/css/grabbing.png (from badlapurseva.com/56/mywings/wp-content/themes/mywings/css/owl.carousel.css)
+17:55:44	Warning: 	Moved Permanently for badlapurseva.com/56/mywings/?p=8
+17:55:44	Warning: 	File has moved from badlapurseva.com/56/mywings/?p=8 to http://badlapurseva.com/56/mywings/shop/
+17:55:44	Warning: 	Moved Permanently for badlapurseva.com/56/mywings/?p=12
+17:55:44	Warning: 	File has moved from badlapurseva.com/56/mywings/?p=12 to http://badlapurseva.com/56/mywings/about-us/
+17:55:44	Warning: 	Moved Permanently for badlapurseva.com/56/mywings/?p=14
+17:55:44	Warning: 	File has moved from badlapurseva.com/56/mywings/?p=14 to http://badlapurseva.com/56/mywings/flight-school/
+17:55:44	Warning: 	Moved Permanently for badlapurseva.com/56/mywings/?p=16
+17:55:44	Warning: 	File has moved from badlapurseva.com/56/mywings/?p=16 to http://badlapurseva.com/56/mywings/gift-of-wings/
+17:55:44	Warning: 	Moved Permanently for badlapurseva.com/56/mywings/?p=18
+17:55:44	Warning: 	File has moved from badlapurseva.com/56/mywings/?p=18 to http://badlapurseva.com/56/mywings/contact/
+17:55:44	Warning: 	Moved Permanently for badlapurseva.com/56/mywings/?p=20
+17:55:44	Warning: 	File has moved from badlapurseva.com/56/mywings/?p=20 to http://badlapurseva.com/56/mywings/press/
+17:56:13	Warning: 	Moved Permanently for badlapurseva.com/56/mywings/?p=41
+17:56:13	Warning: 	File has moved from badlapurseva.com/56/mywings/?p=41 to http://badlapurseva.com/56/mywings/faq/
+17:56:13	Warning: 	Moved Permanently for badlapurseva.com/56/mywings/?p=43
+17:56:13	Warning: 	File has moved from badlapurseva.com/56/mywings/?p=43 to http://badlapurseva.com/56/mywings/terms-and-conditions/
+17:56:13	Warning: 	Moved Permanently for badlapurseva.com/56/mywings/?p=45
+17:56:13	Warning: 	File has moved from badlapurseva.com/56/mywings/?p=45 to http://badlapurseva.com/56/mywings/retail-affiliate-partners/
+
+HTTrack Website Copier/3.49-2 mirror complete in 12 minutes 13 seconds : 145 links scanned, 130 files written (18961790 bytes overall) [18362677 bytes received at 25051 bytes/sec], 1351733 bytes transferred using HTTP compression in 22 files, ratio 27%, 1.8 requests per connection
+(5 errors, 18 warnings, 0 messages)
