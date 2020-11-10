@@ -1163,6 +1163,23 @@ hgroup {
   margin-bottom: 5px;
 }
 
+.aminFlightSchool {
+    /* display: inline-block; */
+    overflow: hidden;
+    /* margin: 8px; */
+    /*
+    min-width: 250px;
+    max-width: 310px;
+    width: 100%;
+  */
+
+    color: #000000;
+    text-align: left;
+    font-size: 16px;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.15); */
+    margin-bottom: 5px;
+  }
+
 
 h3.snip-price{
         font-weight: 700;
