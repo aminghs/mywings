@@ -6053,6 +6053,8 @@ button.close {
   -webkit-overflow-scrolling: touch;
   outline: 0;
 }
+
+
 .modal.fade .modal-dialog {
   -webkit-transition: -webkit-transform 0.3s ease-out;
   -o-transition: -o-transform 0.3s ease-out;
@@ -6062,12 +6064,15 @@ button.close {
   -o-transform: translate(0, -25%);
   transform: translate(0, -25%);
 }
+
+
 .modal.in .modal-dialog {
   -webkit-transform: translate(0, 0);
   -ms-transform: translate(0, 0);
   -o-transform: translate(0, 0);
   transform: translate(0, 0);
 }
+
 .modal-open .modal {
   overflow-x: hidden;
   overflow-y: auto;
@@ -6077,6 +6082,8 @@ button.close {
   width: auto;
   margin: 10px;
 }
+
+
 .modal-content {
   position: relative;
   background-color: #fff;
