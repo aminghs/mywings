@@ -149,11 +149,44 @@ img.emoji {
         <div class="container" style="display: flex;">
             <section class="item1">
                 <section class="image1" style="display: flex; flex-direction: column-reverse;">
-                    <img src="../wp-content/themes/mywings/img/DancingButterflyPerson.jpg" alt="" srcset="" style="order: 5;">
+                    <img id="mainPhoto" src="../wp-content/themes/mywings/img/DancingButterflyPerson.jpg" alt="" srcset="" style="order: 5;">
                     <section class="imageDown" style="display: flex; flex-direction: row;">
-                        <img src="../wp-content/themes/mywings/img/DancingButterflyFront.jpg" alt="" srcset="" style="width: 30%; height: 30%;">
-                        <img src="../wp-content/themes/mywings/img/DancingButterflyFront.jpg" alt="" srcset="" style="width: 30%; height: 30%;">
+                        <img class="thumbnailOfProducts active" src="../wp-content/themes/mywings/img/DancingButterflyPerson.jpg" alt="" srcset="" style="order: 5;">
+                        <img class="thumbnailOfProducts" src="../wp-content/themes/mywings/img/DancingButterflyFront.jpg" alt="" srcset="">
+                        <img class="thumbnailOfProducts" src="../wp-content/themes/mywings/img/DancingButterflyFront.jpg" alt="" srcset="">
+                        <style>
+                            .thumbnailOfProducts {
+                                width: 30%;
+                                height: 30%;
+                                cursor: pointer;
+                                opacity: 0.5;
+                                border: 2px solid black;
+                            }
+                            .thumbnailOfProducts:hover {
+                                opacity: 1;
+                            }
 
+                        </style>
+                        <script>
+                            let thumbnails = document.getElementsByClassName('thumbnailOfProducts')
+
+let activeImages = document.getElementsByClassName('active')
+
+for (var i=0; i < thumbnails.length; i++){
+
+    thumbnails[i].addEventListener('mouseover', function(){
+
+        
+        if (activeImages.length > 0){
+            activeImages[0].classList.remove('active')
+        }
+        
+
+        this.classList.add('active')
+        document.getElementById('mainPhoto').src = this.src
+    })
+}
+                        </script>
                     </section>
                 </section>
             </section>
@@ -165,14 +198,20 @@ img.emoji {
 My Wings are made of 100% organic and Fairtrade cotton, with digitally printed polyester chiffon wings and sleeves. They are produced by our Fairtrade manufacturers that certify compliance with specific environmental, labor, and developmental standards.
 
 The printing is on the front side of the wing to give maximum color vibrancy to each wing design; the back side is not as bright as the front. Note: shirt color may vary slightly. </p>
-            <div class="dropdown">
-                <button onclick="myFunction()" class="dropbtn">Dropdown</button>
-                <div id="myDropdown" class="dropdown-content">
-                  <a href="#">Link 1</a>
-                  <a href="#">Link 2</a>
-                  <a href="#">Link 3</a>
-                </div>
-              </div>
+<br>
+<div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Size
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a href="#">HTML</a></li>
+      <li><a href="#">CSS</a></li>
+      <li><a href="#">JavaScript</a></li>
+    </ul>
+  </div>
+  <br>
+
+  <a href="http://my-wings.com/shopping/" class="btn btn-primary">Add to cart</a>
+  
             </section>
         </div>
     </section>
