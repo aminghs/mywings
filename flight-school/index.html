@@ -122,11 +122,10 @@ img.emoji {
         <div class="container">
             <div class="flight-main-section">
                 <img src="../wp-content/uploads/2020/04/FlightSchool.png">
-                
-                <p style="margin: 30px 0 30px; font-family: 'Montserrat', sans-serif;">A learning through play activity center for caretakers and kids to get inspiration and create together. Each shirt is accompanied by My Wings Flight School activities, which aim to playfully support the development of confidence, compassion and communication. Empowering children to take better care of themselves, each other and the planet.</p>
-
-                <img src="../wp-content/uploads/2020/04/Zippy.png" alt="logo of flight school" style="display: block; margin-left: auto; margin-right: auto; width: 50%; height: 50%;">
+                <hr>
                 <p>Welcome to the My Wings Flight School! The Flight School includes a collection of activities that utilize these wings in playful ways intended to help the children you love train their inner strength or “inner wings.” There are more activities we will be posting soon, so be sure to join our email list to be notified when new activities are made available. We are in the early phases of developing this platform and we ask for your feedback as this gives us the chance to learn how we can provide a better experience for you and other My Wings family. Send feedback to info@my-wings.com. We know that many of you are super creative and will have some cool ideas for developmental activities that can utilize the My Wings shirts. Please share those with ideas with us by clicking the submit idea button below. Most of these activities are meant to be engaged in with an adult and child together. We wish you happy flying and many moments of fun together! </p>
+                <hr>
+                <img src="../wp-content/uploads/2020/04/Zippy.png" alt="logo of flight school" style="display: block; margin-left: auto; margin-right: auto; width: 50%; height: 50%;">
             </div>
             <div class="container">
                 <img src="../wp-content/uploads/2020/04/Website-banner-1280-X-440.png" alt="Snow" style="width:100%">
@@ -168,6 +167,69 @@ img.emoji {
                 </style>
         </div>
     </section>
+
+    <style>
+      .accordion {
+        background-color: #eee;
+        color: #444;
+        cursor: pointer;
+        padding: 18px;
+        width: 80%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+        transition: 0.4s;
+        margin-left: 10%;
+      }
+      
+      .active, .accordion:hover {
+        background-color: #ccc; 
+      }
+      
+      .panel {
+        padding: 0 18px;
+        display: none;
+        background-color: white;
+        overflow: hidden;
+        margin-left: 10%;
+        width: 80%;
+      }
+      </style>            
+      <button class="accordion">My Wing Yoga with Happy Home</button>
+      <div class="panel">
+        <p>A fun 15 minute yoga class to help get kiddo's wings flapping! Guiding a sense of both centeredness and happy flying exploration at the same time!</p>
+      </div>
+      
+      <button class="accordion">My Wings Face Painting with Lyle & Sky</button>
+      <div class="panel">
+        <p>Face painting is great fun and will be even more entertaining when your kid’s painted face matches his/her My Wings shirt! Here’s some inspiration as Sky gets painted and flys</p>
+      </div>
+      
+      <button class="accordion">A My Wings Sing Along Song: “Dream a New Day”</button>
+      <div class="panel">
+        <p>Sing along to this happy and empowering song! Celebrate life and imagination with My Wings! The positive lyrics are a great way to get everyone into a positive state of mind. </p>
+      </div>
+      
+      <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+      
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.display === "block") {
+            panel.style.display = "none";
+          } else {
+            panel.style.display = "block";
+          }
+        });
+      }
+      </script>
+
+      <hr>
+
     <section id="services" style="padding-bottom: 10px; padding-top: 0%;">
         <div class="container-fluid">
             <div class="row">
