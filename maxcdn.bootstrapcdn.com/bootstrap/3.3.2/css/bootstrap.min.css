@@ -6945,3 +6945,13 @@ button.close {
     display: none !important;
   }
 }
+
+.container img {
+  display: block; margin-left: auto; margin-right: auto; width: 50%; height: 50%;
+}
+@media only screen and (max-width: 800px)  {
+  .container img {
+    width: 100%;
+  }
+  
+}
